@@ -1,0 +1,10 @@
+{
+    "name": "Mount Me",
+    "version": "0.0.1",
+    "manifest_version": 1,
+    "author": "Joshua Hercher",
+    "description": "Automatically attach tokens when dragged above tokens on a layer below",
+    "icon": "/mount.svg",
+    "homepage_url": "https://github.com/kamejosh/owlbear-mount-me",
+    "background_url": "/index.html"
+}

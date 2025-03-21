@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 viewBox="0 0 504 504" xml:space="preserve">
+<circle style="fill:#FCCC32;" cx="251.9" cy="252" r="244"/>
+<path style="fill:#EFAE0C;" d="M424.7,79.2c95.2,95.2,95.2,249.6,0,344.8s-249.6,95.2-344.8,0"/>
+<polygon style="fill:#896530;" points="424.7,401.6 251.9,479.2 79.1,401.6 102.3,124 408.7,124 "/>
+<polygon style="fill:#C4A45B;" points="78.3,117.6 251.9,60.8 425.5,117.6 378.3,345.6 251.9,444.8 125.5,345.6 "/>
+<polyline style="fill:#A88547;" points="251.9,60.8 425.5,117.6 378.3,345.6 251.9,444.8 "/>
+<polygon style="fill:#C4A45B;" points="141.5,289.6 251.9,270.4 362.3,289.6 342.3,485.6 251.9,504 161.5,485.6 "/>
+<polyline style="fill:#A88547;" points="251.9,270.4 362.3,289.6 342.3,485.6 251.9,504 161.5,485.6 "/>
+<polygon style="fill:#EDEBD3;" points="155.1,417.6 161.5,485.6 251.9,504 342.3,485.6 348.7,417.6 251.9,400 "/>
+<polygon style="fill:#9B7942;" points="324.7,84.8 251.9,157.6 251.9,232 371.1,351.2 378.3,345.6 425.5,117.6 "/>
+<polygon style="fill:#C4A45B;" points="112.7,0 192.7,92.8 147.9,162.4 78.3,117.6 "/>
+<polyline style="fill:#A88547;" points="147.9,162.4 78.3,117.6 112.7,0 "/>
+<polygon style="fill:#C4A45B;" points="391.1,0 311.1,92.8 355.9,162.4 425.5,117.6 "/>
+<polyline style="fill:#A88547;" points="355.9,162.4 425.5,117.6 391.1,0 "/>
+<polygon style="fill:#5E6664;" points="195.9,255.2 155.9,240.8 155.9,214.4 195.9,228.8 "/>
+<polyline style="fill:#2F423F;" points="195.9,228.8 195.9,255.2 155.9,240.8 "/>
+<polygon style="fill:#5E6664;" points="307.9,255.2 347.9,240.8 347.9,214.4 307.9,228.8 "/>
+<polyline style="fill:#2F423F;" points="307.9,255.2 347.9,240.8 347.9,214.4 "/>
+<g>
+	<polyline style="fill:#5E6664;" points="251.9,232 333.5,68.8 264.7,4 251.9,3.2 	"/>
+	<polyline style="fill:#5E6664;" points="251.9,2.4 239.1,4 170.3,68.8 251.9,232 251.9,232 251.9,232 	"/>
+</g>
+<g>
+	<polyline style="fill:#2F423F;" points="251.9,232 251.9,232 252.7,231.2 333.5,68.8 264.7,4 251.9,2.4 	"/>
+</g>
+<polygon style="fill:#C4A45B;" points="235.9,476 195.9,460 195.9,430.4 235.9,447.2 "/>
+<polygon style="fill:#A88547;" points="267.9,476 307.9,460 307.9,430.4 267.9,447.2 "/>
+</svg>

@@ -1,0 +1,32 @@
+{
+    "name": "mount_me",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "prettier": {
+        "$schema": "http://json.schemastore.org/prettierrc",
+        "tabWidth": 4,
+        "printWidth": 120
+    },
+    "dependencies": {
+        "@owlbear-rodeo/sdk": "^3.1.0",
+        "@types/lodash": "^4.17.16",
+        "@types/node": "^22.13.11",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.21.0",
+        "eslint": "^9.21.0",
+        "globals": "^15.15.0",
+        "prettier": "^3.5.3",
+        "typescript": "~5.7.2",
+        "typescript-eslint": "^8.24.1",
+        "vite": "^6.2.0"
+    }
+}
