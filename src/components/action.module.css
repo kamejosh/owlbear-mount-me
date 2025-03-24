@@ -1,0 +1,17 @@
+.action {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.entry {
+    display: flex;
+    gap: 5px;
+}
+
+.slider {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}

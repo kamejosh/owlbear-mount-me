@@ -6,5 +6,12 @@
     "description": "Automatically attach tokens when dragged above tokens on a layer below",
     "icon": "/mount.svg",
     "homepage_url": "https://github.com/kamejosh/owlbear-mount-me",
+    "action": {
+        "title": "Mount Me",
+        "icon": "/icon.svg",
+        "popover": "/action.html",
+        "height": 600,
+        "width": 500
+    },
     "background_url": "/index.html"
 }

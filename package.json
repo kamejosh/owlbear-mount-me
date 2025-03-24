@@ -15,15 +15,25 @@
         "printWidth": 120
     },
     "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
+        "@fontsource/roboto": "^5.2.5",
+        "@mui/material": "^6.4.8",
         "@owlbear-rodeo/sdk": "^3.1.0",
-        "@types/lodash": "^4.17.16",
-        "@types/node": "^22.13.11",
-        "lodash": "^4.17.21"
+        "lodash": "^4.17.21",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "zustand": "^5.0.3"
     },
     "devDependencies": {
         "@eslint/js": "^9.21.0",
+        "@types/lodash": "^4.17.16",
+        "@types/node": "^22.13.11",
+        "@types/react": "^19.0.12",
+        "@types/react-dom": "^19.0.4",
         "eslint": "^9.21.0",
         "globals": "^15.15.0",
+        "postcss": "^8.5.3",
         "prettier": "^3.5.3",
         "typescript": "~5.7.2",
         "typescript-eslint": "^8.24.1",
