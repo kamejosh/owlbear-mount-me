@@ -7,6 +7,7 @@ import { updateRoomMetadata } from "../helpers/metadataHelpers.ts";
 import style from "./action.module.css";
 import { useItemContext } from "../context/ItemContext.tsx";
 import { isArray } from "lodash";
+import { usePlayerContext } from "../context/PlayerContext.ts";
 
 const layerOptions: Array<Layer> = ["DRAWING", "PROP", "MOUNT", "CHARACTER", "ATTACHMENT", "NOTE", "TEXT"];
 
@@ -59,6 +60,7 @@ const LayerSelect = ({
 export const Action = () => {
     const [room, setRoomMetadata] = useMetadataContext(useShallow((state) => [state.room, state.setRoomMetadata]));
     const items = useItemContext(useShallow((state) => state.items));
+    const playerContext = usePlayerContext();
     const updateLayers = async (layer: AutoMountLayer, index: number) => {
         if (room && room.mountLayers) {
             const newLayers = Array.from(room.mountLayers);
@@ -74,6 +76,14 @@ export const Action = () => {
             await updateRoomMetadata(room, { mountLayers: newLayers });
         }
     };
+
+    if (playerContext.role !== "GM") {
+        return (
+            <div className={style.action}>
+                <h4>Only for GMs</h4>
+            </div>
+        );
+    }
 
     return (
         <div className={style.action}>
