@@ -57,6 +57,7 @@ OBR.onReady(async () => {
             const cached = tokenCache.get(item.id);
 
             if (
+                !item.disableHit &&
                 item.lastModifiedUserId === userId &&
                 !exceptions?.includes(item.id) &&
                 isUndefined(item.attachedTo) &&
@@ -76,6 +77,7 @@ OBR.onReady(async () => {
             const mountLayers = uniq(roomLayerMap.filter((l) => l.rider === token.layer).flatMap((l) => l.mount));
             const targets = items.filter((item) => {
                 return (
+                    !item.disableHit &&
                     item.id !== token.id &&
                     item.visible &&
                     !exceptions?.includes(item.id) &&
